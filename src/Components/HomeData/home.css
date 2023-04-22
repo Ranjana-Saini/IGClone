@@ -1,0 +1,62 @@
+.home{
+    margin-left: 20vw;
+    width: 60vw;
+}
+
+.status{
+    background-color: tomato;
+    height: 15vh;
+}
+
+.posts{
+    margin-left: 10vw;
+    width: 35vw;
+    height: fit-content;
+    }
+.postHead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+    font-size: larger;
+    padding: 0vw 1vw 0vw 0vw;
+
+}    
+.posthead1{
+    width: 20vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.posts img{
+    border:0.1px solid white;
+}
+
+.like{
+    height: 6vh;
+    font-size: x-large;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 1vw;
+}
+
+.like1{
+    width: 8vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.comment{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding-right: 1vw;
+}
+
+.comment input{
+    background: none;
+    border: none;
+    height: 6vh;
+    width: 33vw;
+}
